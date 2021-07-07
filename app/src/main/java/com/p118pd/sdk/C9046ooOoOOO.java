@@ -124,7 +124,7 @@ public class C9046ooOoOOO {
         sb.append(str2);
         sb.insert(0, str2);
         String signcode = OooO00o(str, sb2.toString(), sb.toString().toUpperCase());
-        System.out.println(signcode);
+        System.out.println("signcode" + signcode);
         map.put("signcode", signcode);
         return map;
     }
