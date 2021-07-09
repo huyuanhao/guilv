@@ -38,7 +38,8 @@ public class C8628oo0OO0O implements AbstractC8977ooOOoO0O {
 
     public static String OooO00o(String str) {
         String OooO0O0 = C8630oo0OO0OO.OooO00o().OooO0O0();
-        String str2 = C8630oo0OO0OO.OooO00o().OooO0oo;
+        String str2 = C8630oo0OO0OO.OooO00o().OooO0oo;//md5
+        //判空----------------------------------sm3
         if (!C9054ooOoOo0.OooO0Oo(str) || !str2.equals(C9048ooOoOOOo.OooO00o().m20707OooO0O0())) {
             return OooO0O0;
         }

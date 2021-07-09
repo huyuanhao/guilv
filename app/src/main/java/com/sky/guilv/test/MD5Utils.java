@@ -128,7 +128,7 @@ public class MD5Utils {
     public static void main(String[] args) {
         try {
             String password = "faa0f69f8aa0fbf0ce6c826260400000";
-            boolean encryptedPwd = validPassword(password,password);
+            boolean encryptedPwd = validPassword("sm3",password);
             System.out.println(encryptedPwd);
         } catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
             // TODO Auto-generated catch block
