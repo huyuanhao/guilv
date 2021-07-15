@@ -14,6 +14,10 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        ndk {
+            // 设置支持的SO库架构，第三方给的so库哪几种架构，就配置这几种架构
+            abiFilters 'armeabi' ,'armeabi-v7a'
+        }
     }
 
     buildTypes {
@@ -27,11 +31,11 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     //加载so库
-    sourceSets {
-        main {
-            jniLibs.srcDirs = ['libs']
-        }
-    }
+//    sourceSets {
+//        main {
+//            jniLibs.srcDirs = ['jniLibs']
+//        }
+//    }
 }
 
 dependencies {

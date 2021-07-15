@@ -31,7 +31,8 @@ class sss {
     }
 
     public static void main(String[] args) {
-        Login();
+//        Login();
+        getTime();
     }
 
     public static void getTime(){
@@ -45,7 +46,7 @@ class sss {
         sb.append(str);
 //        map.put("versionNumber", sb.toString());
         map.put("mobileTerminal", C8630oo0OO0OO.OooO00o().OooO0o);
-        map.put("encrypt", "1");
+        map.put("encrypt", "221898ab29a45e0940fdbcc6e9c923dc");
         if (C9054ooOoOo0.OooO0Oo(C8630oo0OO0OO.OooO00o().OooO0oO)) {
             map.put("platformId", C8630oo0OO0OO.OooO00o().OooO0oO);
         }
@@ -88,7 +89,7 @@ class sss {
         map.put("uinfo", "18146266555");
         map.put("version", MyConstants.appVersion);
 
-        boolean is = isSignCode("md5", "1", map);
+        boolean is = isSignCode("md5", "221898ab29a45e0940fdbcc6e9c923dc", map);
         System.out.println("isSignCode=" + is);
     }
 
@@ -175,9 +176,9 @@ class sss {
             return "";
         }
     }
-
-    //编写一个native方法
-    public native C8625oo0OO00 OooO00o(C8625oo0OO00 oo0oo00);
-
-    ;
+//
+//    //编写一个native方法
+//    public native C8625oo0OO00 OooO00o(C8625oo0OO00 oo0oo00);
+//
+//    ;
 }
